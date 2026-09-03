@@ -1,1 +1,14 @@
+This specific sequence of 
+
+Git commands is used when you have created a brand-new local project folder from scratch, but you want to link and push it to an existing GitHub repository that already contains files
+
+ git init
+ git add .
+ git status
+ git commit -m "automation2"
+ git remote add origin https://github.com/vipulraghupatruni/Python_for_devops.git
+ git pull origin master --allow-unrelated-histories
+ git push -u origin master
+ git status
+ history
 
